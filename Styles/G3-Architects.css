@@ -101,6 +101,7 @@ main > section{
 
 .banner-image{
     width: 100%;
+    margin-bottom: 45px;
 }
 
 
@@ -177,6 +178,9 @@ main > section{
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 124px;
+    margin-top: 70px;
+    margin-left: 25px;
 }
 
 .fact-card{
@@ -223,6 +227,19 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* Footer Section */
+.footer{
+    max-width: 1440px;
+    margin: 80px auto;
+}
+.footer-info{
+    color: #424242;
+    font-size: 1.25rem;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 40px 410px;
+}
+
 
 
 /* Responsive Media Query */
@@ -256,6 +273,11 @@ main > section{
         margin-top: 10px;
         margin-left: 13px;
     }
+
+    .footer-info{
+        padding: 20px;
+        font-size: 1rem;
+    }
 }
 
 /* medium size device */
@@ -282,6 +304,10 @@ main > section{
         /* margin-top: -70px;
         margin-left: 25%; */
         margin: -100px 30% 20px;
+    }
+
+    .footer-info{
+        padding: 30px 80px;
     }
     
 }
